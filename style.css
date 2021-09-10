@@ -4,6 +4,7 @@
     --verydarkblue: hsl(229, 23%, 23%);
     --darkgrayishblue: hsl(227, 10%, 46%);
     --darkgray: hsl(0, 0%, 59%);
+    --fontsize: 18px;
 }
 *{
     margin: 0px;
@@ -12,7 +13,7 @@
 
 body {
     font-family: "Kumbh sans";
-    font-size: 18px;
+    font-size: var(--fontsize);
     color: var(--verydarkblue);
    background: var(--darkcyan);
     background: url(images/bg-pattern-top.svg) no-repeat,
@@ -72,7 +73,7 @@ p{
     font-weight: 700;
 }
 .number-of{
-    font-size: 13px;
+    font-size: 15px;
     color: var(--darkgray);
     margin: 10px;
     font-weight: 400;
