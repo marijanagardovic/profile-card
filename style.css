@@ -1,3 +1,4 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
 :root{
     --darkcyan: hsl(185, 75%, 39%);
     --verydarkblue: hsl(229, 23%, 23%);
@@ -8,40 +9,43 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
     font-family: "Kumbh sans";
     font-size: 18px;
     color: var(--verydarkblue);
-    background: var(--darkcyan);
+   background: var(--darkcyan);
     background: url(images/bg-pattern-top.svg) no-repeat,
     url(images/bg-pattern-bottom.svg) no-repeat, hsl(185, 75%, 39%);
   background-position: right 50vw bottom 50vh, left 50vw top 50vh;
-}
-
-
+   
+}  
 .main{
-    margin: 0;
-    padding: 20rem;
+    margin: 0px;
     align-items: center;
     justify-content: center;
     display: flex;
     overflow: hidden;
-    border-radius: 23px;  
+    border-radius: 23px; 
+    min-height: 100vh;
+
 }
 .card{
     background-color: #fafafa;
-    width: 20rem;
+    width: 21rem;
     height: 28rem;
     border-radius: 23px;
     text-align: center;
     font-weight: 400;
+    
+    
 }
 
 .head-of-card{
     background-image: url("images/bg-pattern-card.svg");
     background-size: cover;
     height: 163px;
-    width: 320px;
+    width: 336px;
     border-top-left-radius: 23px;
     border-top-right-radius: 23px;
    
@@ -49,7 +53,7 @@ body {
 img{
     border-radius: 50%;
     border: 7px solid #fafafa;
-    margin-top: -52px;
+    margin-top: -50px;
 }
 
 
@@ -74,9 +78,13 @@ p{
     font-weight: 400;
 
 }
-
+.age{
+    color: var(--darkgray);
+    font-weight: 400;
+}
 hr{
     margin-top: 50px;
     background-color: lightgray;
     
 }
+
