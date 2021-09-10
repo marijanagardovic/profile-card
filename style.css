@@ -13,9 +13,11 @@ body {
     font-size: 18px;
     color: var(--verydarkblue);
     background: var(--darkcyan);
-    background-image: url("images/bg-pattern-bottom.svg");
-    background-repeat: no-repeat;
+    background: url(images/bg-pattern-top.svg) no-repeat,
+    url(images/bg-pattern-bottom.svg) no-repeat, hsl(185, 75%, 39%);
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
+
 
 .main{
     margin: 0;
@@ -24,9 +26,7 @@ body {
     justify-content: center;
     display: flex;
     overflow: hidden;
-    border-radius: 23px;
-
-   
+    border-radius: 23px;  
 }
 .card{
     background-color: #fafafa;
