@@ -1,0 +1,37 @@
+:root{
+    --darkcyan: hsl(185, 75%, 39%);
+    --verydarkblue: hsl(229, 23%, 23%);
+    --darkgrayishblue: hsl(227, 10%, 46%);
+    --darkgray: hsl(0, 0%, 59%);
+}
+
+body{
+    background: var(--darkcyan);
+    background-image: url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+
+}
+.profile-photo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.card {
+    background-color: aliceblue;
+    width: 15rem;
+    height: 20rem;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 90px;
+  margin-top: 15rem;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+
