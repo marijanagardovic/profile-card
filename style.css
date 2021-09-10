@@ -4,34 +4,79 @@
     --darkgrayishblue: hsl(227, 10%, 46%);
     --darkgray: hsl(0, 0%, 59%);
 }
-
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Kumbh sans";
+    font-size: 18px;
+    color: var(--verydarkblue);
     background: var(--darkcyan);
-    background-image: url(images/bg-pattern-top.svg);
+    background-image: url("images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
-    font-family: 'Kumbh Sans';
-    font-size: 18px;
+}
 
+.main{
+    margin: 0;
+    padding: 20rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    border-radius: 23px;
+
+   
 }
-.profile-photo{
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-}
-.card {
-    background-color: aliceblue;
-    width: 15rem;
-    height: 20rem;
-    margin: auto;
+.card{
+    background-color: #fafafa;
+    width: 20rem;
+    height: 28rem;
+    border-radius: 23px;
     text-align: center;
-    font-family: arial;
-    padding: 90px;
-  margin-top: 15rem;
-  }
-  
-  .title {
-    color: grey;
-    font-size: 18px;
-  }
-  
+    font-weight: 400;
+}
 
+.head-of-card{
+    background-image: url("images/bg-pattern-card.svg");
+    background-size: cover;
+    height: 163px;
+    width: 320px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+   
+}
+img{
+    border-radius: 50%;
+    border: 7px solid #fafafa;
+    margin-top: -52px;
+}
+
+
+.followers{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+.profile-city{
+    color:var(--darkgray);
+    font-size: 20px;
+    font-weight: 400;
+}
+p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.number-of{
+    font-size: 13px;
+    color: var(--darkgray);
+    margin: 10px;
+    font-weight: 400;
+
+}
+
+hr{
+    margin-top: 50px;
+    background-color: lightgray;
+    
+}
