@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 :root{
     --darkcyan: hsl(185, 75%, 39%);
     --verydarkblue: hsl(229, 23%, 23%);
@@ -20,6 +20,7 @@ body {
     background-position: right 50vw bottom 50vh, left 50vw top 50vh;
    
 }  
+
 .main{
     margin: 0px;
     align-items: center;
@@ -30,6 +31,7 @@ body {
     min-height: 100vh;
 
 }
+
 .card{
     background-color: #fafafa;
     width: 21rem;
@@ -50,27 +52,30 @@ body {
     border-top-right-radius: 23px;
    
 }
+
 img{
     border-radius: 50%;
     border: 7px solid #fafafa;
     margin-top: -50px;
 }
 
-
 .followers{
     display: flex;
     flex-direction: row;
     margin-top: 35px;
 }
+
 .profile-city{
     color:var(--darkgray);
     font-size: 20px;
     font-weight: 400;
 }
+
 p{
     font-size: 25px;
     font-weight: 700;
 }
+
 .number-of{
     font-size: 15px;
     color: var(--darkgray);
@@ -78,10 +83,12 @@ p{
     font-weight: 400;
 
 }
+
 .age{
     color: var(--darkgray);
     font-weight: 400;
 }
+
 hr{
     margin-top: 50px;
 }
